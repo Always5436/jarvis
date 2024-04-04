@@ -166,7 +166,7 @@ def sendemail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    id = "mohityadav98128@gmail.com"
+    id = "abc@example.com"
     pas = 'New Password'
     server.login(id, pas)
     server.sendmail(id, to, content)
@@ -542,8 +542,8 @@ if __name__ == '__main__':
                 speak("sorry email not sent")
 
         elif 'who are' in query:
-            print('Hello sir, This ia jarvis a bot. A project created by nitika and mohit.')
-            speak('Hello sir, This ia jarvis a bot. A project created by nitika and mohit.')
+            print('Hello sir, This ia jarvis a bot. A project created by Mohit .')
+            speak('Hello sir, This ia jarvis a bot. A project created by Mohit.')
 
         elif 'which python' in query:
             print(
